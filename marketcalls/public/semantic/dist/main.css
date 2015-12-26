@@ -1,0 +1,32 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:"helvetica", arial;
+}
+#mainHead{
+	margin: 40px 40px 0px 40px;
+	text-align: center;
+}
+#menu{
+	max-width: 1024px;
+	margin: 0 auto;
+}
+#mainImage{
+	width:100%;
+	height:auto;
+}
+#mainImage{
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:0;
+	z-index:-1;
+}
+#m_btn{display:none;}
+
+@media all and (max-width:1007px){
+	#menu{display:none;}
+	#m_btn{
+		display: inline-block;
+	}
+	}
